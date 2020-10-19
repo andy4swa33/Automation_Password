@@ -18,6 +18,15 @@
   
   console.log(typeof length, length)
 
+  if (length < 8 || length > 128){
+    alert("Invalid input, please pick a number greater than 8 and less 128. Please refresh the page!")
+  }
+    else {
+    console.log("continue") 
+    }
+    // validated that user selects >8, less 128 characters in length.
+    let chars
+
 
 
 
