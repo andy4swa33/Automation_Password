@@ -14,9 +14,15 @@
   
   let lChars = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
   
-  let length = prompt("What is the password length?");
+  let length = parseInt(prompt("What is the password length?"))
   
-  console.log(length)
+  console.log(typeof length, length)
+
+
+
+
+
+
   var generateBtn = document.querySelector("#generate");
   
   // Write password to the #password input
